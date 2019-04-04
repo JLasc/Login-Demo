@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Login Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel='stylesheet' href='./css/style.css'>
+</head>
+
+<body>
+  <div class='container'>
+    <!-- image -->
+
+    <div class='text-center'>
+      <img src="/images/banner.jpg" height='250' width='450'>
+    </div>
+
+
+    <div class='row'>
+      <div id="form-field" class='text-center'>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="registerEmail" placeholder="Enter Email">
+
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="registerUser" placeholder="Enter Username">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="registerPassword" placeholder="Enter Password">
+            <small id="emailHelp" class="form-text text-white">Password must be at least 6 characters long</small>
+          </div>
+          <button id="submit-btn" type="submit" class="btn btn-primary">Submit</button>
+          <br>
+          <a href='/' id="submit-btn">Back</a>
+        </form>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./scripts/register.js"> </script>
+</body>
+
+</html>
